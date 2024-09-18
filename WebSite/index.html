@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .relative {
+      grid-row: var(--r) / span 2;
+      grid-column: var(--c) / span 2;
+    }
+  </style>
+  <title>Thomas Vance</title>
+</head>
+
+<body class="bg-black">
+  <div class="w-full h-screen grid grid-cols-8 grid-rows-20 gap-4 p-4 overflow-hidden">
+    <div class="relative" style="--r: 1; --c: 3;">
+      <img src="https://picsum.photos/seed/1/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 1; --c: 6;">
+      <img src="https://picsum.photos/seed/2/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 2; --c: 2;">
+      <img src="https://picsum.photos/seed/3/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 2; --c: 7;">
+      <img src="https://picsum.photos/seed/4/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 3; --c: 4;">
+      <img src="https://picsum.photos/seed/5/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 3; --c: 8;">
+      <img src="https://picsum.photos/seed/6/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 4; --c: 1;">
+      <img src="https://picsum.photos/seed/7/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 4; --c: 6;">
+      <img src="https://picsum.photos/seed/8/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 5; --c: 3;">
+      <img src="https://picsum.photos/seed/9/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 5; --c: 8;">
+      <img src="https://picsum.photos/seed/10/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 6; --c: 2;">
+      <img src="https://picsum.photos/seed/11/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 6; --c: 7;">
+      <img src="https://picsum.photos/seed/12/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 7; --c: 4;">
+      <img src="https://picsum.photos/seed/13/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 7; --c: 6;">
+      <img src="https://picsum.photos/seed/14/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 8; --c: 1;">
+      <img src="https://picsum.photos/seed/15/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 8; --c: 8;">
+      <img src="https://picsum.photos/seed/16/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 9; --c: 3;">
+      <img src="https://picsum.photos/seed/17/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 9; --c: 5;">
+      <img src="https://picsum.photos/seed/18/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 10; --c: 2;">
+      <img src="https://picsum.photos/seed/19/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+    <div class="relative" style="--r: 10; --c: 7;">
+      <img src="https://picsum.photos/seed/20/200" alt="Random image" class="w-full h-full object-cover">
+    </div>
+  </div>
+  <div class="fixed inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white">
+    <h1 class="text-8xl uppercase font-bold mb-4">
+      Thomas Vance<sup>&reg;</sup></h1>
+    <h2 class="text-4xl">ランダムな画像の美しさを探る</h2>
+  </div>
+  <div class="py-96 w-full h-screen flex items-center relative bg-[#d1d1d1] z-[999] justify-center">
+    <div class="w-3/4 text-center leading-[4.2rem]">
+      <p class="text-4xl font-normal">
+        Thomas Vance is a cutting-edge clothing brand that seamlessly blends style and innovation. Our designs are
+        inspired by the beauty of randomness, creating unique and captivating pieces that stand out in the fashion
+        world. With a commitment to quality and creativity, Thomas Vance offers a fresh perspective on contemporary
+        fashion, inviting wearers to explore the unexpected in their everyday style.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
